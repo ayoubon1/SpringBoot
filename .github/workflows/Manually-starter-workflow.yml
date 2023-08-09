@@ -1,0 +1,8 @@
+name: Manually Starter workflow caller 
+
+on:
+  workflow_dispatch: 
+
+jobs:
+     Call-the-reusable-Workflow:
+        uses: ./.github/workflows/maven-publish.yml
